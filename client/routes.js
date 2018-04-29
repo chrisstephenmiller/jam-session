@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
-import {Login, Signup, UserHome} from './components'
+import {Login, Signup, UserHome, Metronome, Player, DrumGrid, InstrumentGrid, Sequencer, All} from './components'
 import {me} from './store'
 
 /**
@@ -21,6 +21,12 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
+        <Route path="/metronome" component={Metronome} />
+        <Route path="/player" component={Player} />
+        <Route path="/drum-grid" component={DrumGrid} />
+        <Route path="/instrument-grid" component={InstrumentGrid} />
+        <Route path="/sequencer" component={Sequencer} />
+        <Route path="/all" component={All} />
         {
           isLoggedIn &&
             <Switch>

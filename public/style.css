@@ -19,3 +19,30 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+/* GRID/SEQUENCER */
+
+table {
+  border: 1px solid black;
+  width: 80vh;
+  height: 80vh;
+  border-spacing: 2px;
+  border-collapse: separate;
+}
+
+td {
+  background-color: black;
+  border: 2px solid black
+}
+
+#drum-grid, #sequencer {
+  width: 80vh;
+}
+
+td.alive {
+  background-color: rgb(0, 255, 0)
+}
+
+td.active {
+  border: 2px solid red
+}

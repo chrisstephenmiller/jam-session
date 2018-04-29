@@ -1,5 +1,5 @@
 {
-  "name": "boilermaker",
+  "name": "jam-session",
   "version": "1.0.0",
   "description": "Some boilerplate code to get you started - get shakin'!",
   "engines": {
@@ -28,6 +28,7 @@
     "express": "^4.14.1",
     "express-session": "^1.15.1",
     "history": "^4.6.3",
+    "midi-sounds-react": "^1.2.54",
     "morgan": "^1.8.1",
     "passport": "^0.3.2",
     "passport-google-oauth": "^1.0.0",
@@ -52,7 +53,7 @@
     "@babel/preset-stage-2": "^7.0.0-beta.40",
     "@babel/register": "^7.0.0-beta.40",
     "axios-mock-adapter": "^1.9.0",
-    "babel-eslint": "^8.0.1",
+    "babel-eslint": "^8.2.3",
     "babel-loader": "^8.0.0-beta.2",
     "chai": "^3.5.0",
     "enzyme": "^3.0.0",
